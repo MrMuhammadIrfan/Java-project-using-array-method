@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>JavaScript Arrays</h1>
-<h2>The push() Method</h2>
-
-<p>push() adds new items to the end of an array:</p>
-
-<p id="demo"></p>
-
-<script>
-const fruits = ["Banana", "Orange", "Apple", "Mango","Grapes"];
-
-fruits.push=prompt("Enter the name you want to replace in place of apple");
-document.write(fruits);
+    <center>
+    <button onclick="Push()">To know about other language courses available</button>
+</center>
 
 
-</script>
+    <script>
+        let userInput=["Javascript", "HTML", "CSS","React JS"];
+        document.write(userInput);
+        function Push(){
+            const newuser=prompt("Enter the program name you want to know");
+            userInput.push(newuser);
+            document.write(userInput)
+        
+        }
+       
+
+
+
+
+
+               
+       
+    </script>
 
 </body>
 </html>
